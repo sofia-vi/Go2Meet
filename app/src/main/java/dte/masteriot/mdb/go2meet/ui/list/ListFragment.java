@@ -1,4 +1,4 @@
-package dte.masteriot.mdb.go2meet.ui.dashboard;
+package dte.masteriot.mdb.go2meet.ui.list;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,18 +10,18 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import dte.masteriot.mdb.go2meet.databinding.FragmentDashboardBinding;
+import dte.masteriot.mdb.go2meet.databinding.FragmentListBinding;
 
-public class DashboardFragment extends Fragment {
+public class ListFragment extends Fragment {
 
-    private FragmentDashboardBinding binding;
+    private FragmentListBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         DashboardViewModel dashboardViewModel =
                 new ViewModelProvider(this).get(DashboardViewModel.class);
 
-        binding = FragmentDashboardBinding.inflate(inflater, container, false);
+        binding = FragmentListBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textDashboard;

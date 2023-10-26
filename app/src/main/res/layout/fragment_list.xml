@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.DashboardFragment">
-
+    tools:context=".ui.list.ListFragment">
+<!-- To be changed to a constraint layout -->
     <TextView
         android:id="@+id/text_dashboard"
         android:layout_width="match_parent"

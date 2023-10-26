@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Go2Meet</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Map view</string>
+    <string name="title_list">List of events</string>
 </resources>

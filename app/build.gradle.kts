@@ -45,4 +45,4 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
 
-configurations.implementation {     exclude("org.jetbrains.kotlin", "kotlin-stdlib-jdk8") }
+configurations.implementation {exclude("org.jetbrains.kotlin", "kotlin-stdlib-jdk8")}
